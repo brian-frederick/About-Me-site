@@ -1,0 +1,62 @@
+*{
+    font-family: old standard tt;
+}
+
+.container {
+}
+ul {
+    list-style: none;
+}
+.pageTop {
+    margin-top:2em;
+}
+
+#bfis {
+    margin-top:20px;
+    padding: 1em;
+}
+
+.level2 {
+    display: none; 
+    margin-left: 5em;
+}
+
+.pics img{
+    display:none;
+}
+
+hr {
+    border-top-color: #ad7d65;
+    width:30%;
+    margin: 1em auto;
+}
+
+.descrip {
+    padding: 2em 11em;
+}
+.brianContent{
+    display:none;
+}
+.developer{
+    float:none;
+    margin: 1em auto;
+}
+.contact {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.footer {
+    border-top:none;
+    margin:1em 1em;   
+
+}
+
+.footer li, .footer a {
+    color: #ff7f00;
+    float: right;
+    display: inline;
+    padding-right: 2em;
+    text-decoration: none;
+}
