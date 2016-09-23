@@ -4,6 +4,10 @@
 
 .container {
 }
+
+.wrapper {
+    min-height:540px;
+}
 ul {
     list-style: none;
 }
@@ -17,12 +21,21 @@ ul {
 }
 
 .level2 {
-    display: none; 
+    display: none;
     margin-left: 5em;
+    color: #ff8c00;
 }
 
 .pics img{
     display:none;
+}
+
+.thumbnail {
+    height: 110px;
+}
+
+.thumbnail > img {
+    max-height: 100px;
 }
 
 hr {
@@ -34,9 +47,11 @@ hr {
 .descrip {
     padding: 2em 11em;
 }
+
 .brianContent{
     display:none;
 }
+
 .developer{
     float:none;
     margin: 1em auto;
@@ -49,13 +64,10 @@ hr {
 
 .footer {
     border-top:none;
-    margin:1em 1em;   
-
 }
 
 .footer li, .footer a {
-    color: #ff7f00;
-    float: right;
+    color: #ff8c00;
     display: inline;
     padding-right: 2em;
     text-decoration: none;
